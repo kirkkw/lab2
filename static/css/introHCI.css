@@ -2,6 +2,17 @@
 .example-class-selector {
 	margin-top: 2em;
 }
+.project {
+	margin-left: 20px;
+}
+
+.project p {
+	font-variant:small-caps;
+}
+
+#project1{	
+	font-variant: small-caps;	
+}
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
@@ -14,6 +25,10 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+}
+
+p{
+	font-variant: small-caps;
 }
 
 .jumbotron {
